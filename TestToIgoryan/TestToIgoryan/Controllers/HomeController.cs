@@ -16,7 +16,7 @@ namespace TestToIgoryan.Controllers
         public HomeController(ILogger<HomeController> logger)
         {
             int i = 20;
-            // лёха привет
+            // лёха пошли спать
             _logger = logger;
         }
 
