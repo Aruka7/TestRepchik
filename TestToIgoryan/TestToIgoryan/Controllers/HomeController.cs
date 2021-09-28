@@ -15,11 +15,14 @@ namespace TestToIgoryan.Controllers
 
         public HomeController(ILogger<HomeController> logger)
         {
+
+            // лёха привет
             _logger = logger;
         }
 
         public IActionResult Index()
         {
+            //25 стока вот тут
             return View();
         }
 
